@@ -1,0 +1,136 @@
+/*Scrollbar*/
+::-webkit-scrollbar {
+  width: 12px;
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#DDBA00), to(#FF3E2C));
+  border-radius: 100px;
+  height: 200px;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#DDBA00), to(#FF3E2C));
+}
+
+/*Scrollbar*/
+.centrado {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.header {
+  padding: 30px 0;
+  height: 92px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #000000;
+}
+
+.title {
+  margin-top: 25px;
+}
+
+.title span {
+  font-size: 25pt;
+  font-weight: bold;
+  position: relative;
+  top: -40px;
+  left: 50px;
+  font-family: "Fredoka One";
+  cursor: pointer;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.title span::before {
+  content: var(--l);
+  position: absolute;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: blur(15px);
+          filter: blur(15px);
+}
+
+.title span::after {
+  content: var(--l);
+  position: absolute;
+  height: 200%;
+  width: 300px;
+  top: 80%;
+  left: 0;
+  -webkit-filter: blur(30px);
+          filter: blur(30px);
+  -webkit-transform: rotateX(50deg);
+          transform: rotateX(50deg);
+}
+
+.title span:hover {
+  -webkit-filter: contrast(250%);
+          filter: contrast(250%);
+}
+
+.title span:nth-child(1) {
+  color: white;
+}
+
+.title span:nth-child(2) {
+  color: red;
+}
+
+.title span:nth-child(3) {
+  color: #ff4d00;
+}
+
+.title span:nth-child(4) {
+  color: #ffe600;
+}
+
+.title span:nth-child(5) {
+  color: red;
+}
+
+.title span:nth-child(6) {
+  color: white;
+}
+
+.title span:nth-child(7) {
+  color: red;
+}
+
+.title span:nth-child(8) {
+  color: #ff4d00;
+}
+
+.title span:nth-child(9) {
+  color: #ffe600;
+}
+
+.title span:nth-child(10) {
+  color: red;
+}
+
+.btn-store {
+  background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#DDBA00), to(#FF3E2C));
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #000000;
+}
+
+.btn-store:hover {
+  background: #ffc107;
+  color: #fff;
+  outline: none;
+  text-decoration: none;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

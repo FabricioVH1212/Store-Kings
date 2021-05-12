@@ -1,0 +1,16 @@
+footer {
+   background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("../img/footer.jpg");
+   background-size: contain;
+ 
+}
+
+h5 {
+   font-size: 20px;
+    letter-spacing: 3px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 1.6em;
+    color: #fff;
+    padding-bottom: 0.5em;}
+
+
