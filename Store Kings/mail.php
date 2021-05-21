@@ -37,8 +37,8 @@ try {
     $mail->addCC('cc@example.com');
     $mail->addBCC('bcc@example.com');*/
 
-    $mail->setFrom('noreply@uca.sa.cr', 'UCA');
-    $mail->addAddress('jeinerestrada@hotmail.es');    
+    $mail->setFrom('...', '..');
+    $mail->addAddress('...');    
 
     // Attachments
     /*$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
